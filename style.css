@@ -1,0 +1,80 @@
+*{
+    font-family: times New Roman;
+ }
+ body {
+   background-image: url('coffee.jpg');
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   background-size: cover;
+   color: #f0f0f0;
+}
+
+h1, h2, h3, p {
+   font-family: 'Roboto', sans-serif;
+   font-size: 18px;
+   line-height: 1.5;
+   color: white;
+}
+
+table, th, td {
+   border: 1px solid #ccc;
+   border-collapse: collapse;
+   padding: 10px;
+}
+
+.product{
+   display:none; 
+   margin-top:20px;
+}
+ .header{
+    border-bottom: 5px solid white;
+    width: 100%;
+    height: auto;
+ }
+ .content{
+    margin-left: 5px;
+ }
+ a{
+    color: black;
+    text-decoration: none;
+ }
+ 
+ .container {
+   border: 5px solid white;
+   padding: 20px;
+   margin: 20px;
+}
+.delete, .ebtn {
+   text-align: center;
+   background-color: #333;
+}
+
+.dltbtn, .ebtn {
+   background-color: #333;
+   color: black;
+   border: none;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+ .ListOfBaristas{
+    display: grid;
+    height: auto;
+    row-gap: 20px;
+    grid-template-columns: auto auto auto auto;
+    background-color: #333;
+ }
+
+ 
+ textarea {
+   background-color: #f0f0f0;
+   border: 1px solid #333;
+}
+ 
+ form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+ }
+ 
+ 
